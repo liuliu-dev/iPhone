@@ -33,7 +33,7 @@ function update(){
 	var d=new Date();
 	var h=d.getHours(),m=d.getMinutes(),s=d.getSeconds();
 	var sRadius=s*6,mRadius=m*6,hRadius=30*h+30/60*m;
-	timehtml=h+":"+m+(h>12?"AM":"PM");
+	timehtml=h+":"+m+(h>12?"PM":"AM");
 	$("#headline-time").html(timehtml);
 	$("#phone-time").html(h+":"+m);
 	$("#hour").css({"-webkit-transform":"rotate("+hRadius+"deg)","-moz-transform":"rotate("+hRadius+"deg)",
