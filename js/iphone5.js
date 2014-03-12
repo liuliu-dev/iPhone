@@ -22,7 +22,7 @@ function clock(){
 	$("#weekday").html(day);
 	$("#date").html(date);
 	h=d.getHours(),m=d.getMinutes();
-	timehtml=h+":"+m+(h>12?"AM":"PM");
+	timehtml=h+":"+m+(h>12?"PM":"AM");
 	datehtml=day+","+mon+" "+date;
 	$("#headline-time").html(timehtml);
 	$("#phone-time").html(h+":"+m);
