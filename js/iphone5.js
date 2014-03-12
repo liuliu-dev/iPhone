@@ -36,9 +36,12 @@ function update(){
 	timehtml=h+":"+m+(h>12?"AM":"PM");
 	$("#headline-time").html(timehtml);
 	$("#phone-time").html(h+":"+m);
-	$("#hour").css("transform","rotate("+hRadius+"deg)");
-	$("#minute").css("transform","rotate("+mRadius+"deg)");
-	$("#second").css("transform","rotate("+sRadius+"deg)");
+	$("#hour").css({"-webkit-transform":"rotate("+hRadius+"deg)","-moz-transform":"rotate("+hRadius+"deg)",
+	"-ms-transform":"rotate("+hRadius+"deg)","-o-transform":"rotate("+hRadius+"deg)","transform":"rotate("+hRadius+"deg)"});
+	$("#minute").css({"-webkit-transform":"rotate("+mRadius+"deg)","-moz-transform":"rotate("+mRadius+"deg)",
+	"-ms-transform":"rotate("+mRadius+"deg)","-o-transform":"rotate("+mRadius+"deg)","transform":"rotate("+mRadius+"deg)"});
+	$("#second").css({"-webkit-transform":"rotate("+sRadius+"deg)","-moz-transform":"rotate("+sRadius+"deg)",
+	"-ms-transform":"rotate("+sRadius+"deg)","-o-transform":"rotate("+sRadius+"deg)","transform":"rotate("+sRadius+"deg)"});
 }
 function compass(){
 	for(var i=0;i<24;i++){
