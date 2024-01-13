@@ -1,5 +1,5 @@
 body {
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial;
     -webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	-o-font-smoothing: antialiased;
@@ -2448,7 +2448,7 @@ border: 2px solid black;
     display: none;
 }
 #phone{
-	background: linear-gradient(#3dff77,#03de23);
+	background: -webkit-linear-gradient(top, #86fe65 0%, #06d315 100%);
 }
 #receiver{
     background: #fff;
@@ -2469,7 +2469,7 @@ border: 2px solid black;
 }
 #receiver:before{
     content: '';
-    background: linear-gradient(-45deg, #63f056 0%, #3be13e 100%);
+    background: linear-gradient(-45deg, #3de233 0%, #63f14e 100%);
     height: 7px;
     width: 24px;
     border-radius: 0 0 6px 6px;
