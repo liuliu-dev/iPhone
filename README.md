@@ -4,4 +4,4 @@ Inspired by TjRus(who implemented iPhone4 in CSS), I tried to draw iPhone 5s in 
 
 [<img src="https://github.com/liuliu-dev/iphone/blob/master/iPhone%205s.png " width="400">](http://liuliu-dev.github.io/iPhone/)
 
-The [Demo](http://liuliu-dev.github.io/iphone/) is available.
+The [Demo](http://liuliu-dev.github.io/iPhone/) is available.
